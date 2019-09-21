@@ -20,23 +20,23 @@ int main()
   // add 3 more cout statements that all print the same thing - a plus sign
   // however, use a different method to do so for each cout statement
   // hint: use the ASCII character set
-  std::cout << "+" << std::endl;
-  std::cout << "43" << std::endl;
-  std::cout << "2B" << std::endl;
+  std::cout << "+" << std::endl; // HTML
+  std::cout << "43" << std::endl; // decimal
+  std::cout << "2B" << std::endl; // hex
   std::cout << std::endl; // blank line to separate the different exercises
 
   // TODO#3: update the following statement to include escape characters
   // note that clang does not require an escape character on the single quote
   // but many other compilers do require it
-  std::cout << "\'Y\'" << '\n';
+  std::cout << "Y" << '\n';
 
   std::cout << std::endl; // blank line to separate the different exercises
 
   // TODO#4: try changing the variable types and the data types in the
   // statements below to see what is returned by the sizeof operator
-  int my_bool = 1;
+  double my_bool = 1;
   std::cout << my_bool << ' ' << sizeof(my_bool) << '\n';
-  int my_int = 1;
+  double my_int = 1;
   std::cout << my_int << ' ' << sizeof(my_int) << '\n';
 
   double amount;
